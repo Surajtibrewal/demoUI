@@ -1,0 +1,60 @@
+<div *ngIf="show">
+    <h1>welcome to lets program</h1>
+</div>
+
+
+
+<h1> Exp for ngFor</h1>
+<ul *ngFor="let emp of employee">
+    <li>{{emp.id}}</li>
+    <li>{{emp.name}}</li>
+</ul>
+
+
+
+     <div class="container">
+         <br>
+         <div class="row">
+             <div class="col-md-3">
+                 <input type="text" name="" class="form-control"  [(ngModel)]="uname" placeholder="User Name">
+             </div>
+             <div class="col-md-3">
+                 <button class="btn btn-success"(click)="onCreateUser(uname)">Create User</button>
+             </div>
+             
+          </div>
+     </div>
+    <table>
+        <tr>
+            <th>name</th>
+        </tr>
+        <tbody>
+        <tr ngFor="let users of user">
+            <td>{{myName}} </td>
+            
+        </tr>
+        
+    </tbody>
+    </table> 
+     <!-- <div class="row">
+        <div class="col-md-10">
+            <table class="table">
+                <thead class="thead-dark">
+                <tr>
+                    <th>UserName</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of users">
+                    <td>
+                        {{user.name}}
+
+                    </td></tr>
+            </tbody>
+            </table>
+            </div>
+            </div> -->
+
+            <!-- <input type="text" value="ram" [(ngModel)]="uname">
+            <p>{{uname}}</p>  -->
+          
