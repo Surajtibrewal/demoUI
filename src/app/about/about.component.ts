@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  test = ['knaw more about tv', 'knaw more about laptop', 'knaw more about computer']
+  
+
   constructor() { }
 
   ngOnInit(): void {

@@ -14,6 +14,12 @@ import { AboutComponent } from './about/about.component';
 import { ContectusComponent } from './contectus/contectus.component';
 import { TwowayComponent } from './twoway/twoway.component';
 import { TestComponent } from './test/test.component';
+import { CommanCardComponent } from './comman-card/comman-card.component';
+import { OfficeComponent } from './office/office.component';
+import { FrontendComponent } from './frontend/frontend.component';
+import { BackendComponent } from './backend/backend.component';
+import { DataComponent } from './data/data.component';
+import { MarketingComponent } from './marketing/marketing.component';
 // import { LgoComponent } from './lgo/lgo.component';
 
 const appRoutes:Routes=[
@@ -31,6 +37,12 @@ const appRoutes:Routes=[
     ContectusComponent,
     TwowayComponent,
     TestComponent,
+    CommanCardComponent,
+    OfficeComponent,
+    FrontendComponent,
+    BackendComponent,
+    DataComponent,
+    MarketingComponent,
     
     // LgoComponent,
   ],
